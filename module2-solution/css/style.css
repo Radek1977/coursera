@@ -1,16 +1,19 @@
 /********** Base styles **********/
 * {
   box-sizing: border-box;
+  font-family: Helvetica;
 }
 h1 {
   margin-bottom: 25px;
   text-align: center;
+  font-size: 175%;
 }
 
 p {
   position: relative;  
-  top: -6px;
+  top: -12px;
   text-align: center;
+  font-weight: bold;
 }
 
 .title {
@@ -22,22 +25,23 @@ p {
   border: 1px solid black;
   height: 40px;
   color: black;
+  font-size: 125%;
 }
 
 .chicken {       
   background-color: #D59898;
-  width: 150px;
+  width: 170px;
 }
 
 .beef {  
   color: white;
   background-color: #C14543;
-  width: 170px;
+  width: 190px;
 }
 
 .sushi {  
   background-color: #E5D198;
-  width: 145px;
+  width: 160px;
 }
 
 .menuItemBox {
@@ -47,7 +51,6 @@ p {
   height: 200px;
   margin-right: auto;
   margin-left: auto;
-  font-family: Helvetica;
   color: black;  
   margin-top: 20px;
 }
