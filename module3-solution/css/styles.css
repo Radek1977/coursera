@@ -1,3 +1,11 @@
+h1 {
+  font-size: 175%;
+}
+
+a {
+  font-size: 125%;
+}
+
 body{
 	font-size: 16px;
 	color: #000000;
@@ -38,4 +46,10 @@ body{
 .navbar-header button.navbar-toggle {
   clear: both;
   margin-top: -40px;
+}
+
+.dish{
+	height: 1000px;
+	background-color: grey;
+	margin-top: 20px;
 }
