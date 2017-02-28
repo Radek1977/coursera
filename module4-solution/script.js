@@ -52,5 +52,6 @@ for (i = 0; i < 10; i++) {
    else 
    {
      helloSpeaker.speak(names[i]);
-   }  
+   } 
+} 
 })();
