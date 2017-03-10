@@ -19,11 +19,12 @@ body{
 }
 
 #arch-user-nav{
-	margin-right: -10px;
+	margin-right: -15px;
+	color:grey;
 }
 
 #arch-search{
-	
+	color:grey;
 }
 
 .navbar-nav {
