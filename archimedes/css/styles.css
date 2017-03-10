@@ -12,15 +12,23 @@ body{
 	background-color: #FFFFFF;
 }
 
-#header-nav {
+#arch-header-nav {
 	background-color: #ffffff;
 	border-radius: 0;
 	border:0;	
 }
 
-.navbar-brand{
-	font-weight: bold;	
-	color: #FFaaaa;
+#arch-user-nav{
+	margin-right: -10px;
+}
+
+#arch-search{
+	
+}
+
+.navbar-nav {
+	margin-top:0px;
+	margin-left: 0px;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
@@ -29,6 +37,10 @@ body{
 .navbar-header button.navbar-toggle {
   clear: both;
   margin-top: -40px;
+}
+
+.navbar{
+	margin-bottom: 0px;
 }
 
 .dish{
@@ -47,21 +59,22 @@ body{
 	border: 0px;
 }
 
-.insidebox{
+.archi-insidebox{
 	margin-left: 10px;
 	margin-right: 10px;
 	border: 1px;
 	border-color: black;
 }
 
-.selectContainer{
-	padding-top: 10px;
-}
-
-.sliderdiv{
+.archi-slider-div{
 	margin-top: 10px;
 }
 
 .btn .caret{
 	margin-left: 10px;
+}
+
+.archi-glyphicon-right{
+	float: right;
+	margin-right: 10px;
 }
