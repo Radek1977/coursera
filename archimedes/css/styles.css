@@ -61,3 +61,7 @@ body{
 .sliderdiv{
 	margin-top: 10px;
 }
+
+.btn .caret{
+	margin-left: 10px;
+}
