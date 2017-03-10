@@ -1,0 +1,63 @@
+h1 {
+  font-size: 175%;
+}
+
+a {
+  font-size: 125%;
+}
+
+body{
+	font-size: 16px;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+
+#header-nav {
+	background-color: #f6b319;
+	border-radius: 0;
+	border:1;
+	border-color: black;
+}
+
+#nav-list {
+  margin-top: 0px;  
+}
+
+#nav-list a {
+  color: black;
+  background-color: #DDDDDD;
+  border: 1px solid black;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #AAAAAA;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.menu{
+	margin-top: -20px;
+}
+
+.navbar-brand{
+	font-weight: bold;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -40px;
+}
+
+.dish{
+	height: 1000px;
+	background-color: grey;
+	margin-top: 20px;
+}
+
+.container{
+	margin-left: 20px;
+}
