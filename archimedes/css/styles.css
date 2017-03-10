@@ -85,3 +85,8 @@ body{
 	float: right;
 	margin-right: 10px;
 }
+
+.input-group{
+	margin-left: 10px;
+	margin-right: 10px;
+}
