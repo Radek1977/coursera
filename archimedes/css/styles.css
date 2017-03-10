@@ -19,27 +19,6 @@ body{
 	border-color: black;
 }
 
-#nav-list {
-  margin-top: 0px;  
-}
-
-#nav-list a {
-  color: black;
-  background-color: #DDDDDD;
-  border: 1px solid black;
-  text-align: center;
-}
-#nav-list a:hover {
-  background: #AAAAAA;
-}
-#nav-list a span {
-  font-size: 1.8em;
-}
-
-.menu{
-	margin-top: -20px;
-}
-
 .navbar-brand{
 	font-weight: bold;
 }
@@ -53,11 +32,16 @@ body{
 }
 
 .dish{
-	height: 1000px;
 	background-color: grey;
 	margin-top: 20px;
 }
 
 .container{
 	margin-left: 20px;
+}
+
+.container-fluid{
+	padding-right: 0px;
+	padding-left: 0px;
+	border: 0px;
 }
