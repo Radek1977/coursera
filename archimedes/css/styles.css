@@ -50,6 +50,8 @@ body{
 .insidebox{
 	margin-left: 10px;
 	margin-right: 10px;
+	border: 1px;
+	border-color: black;
 }
 
 .selectContainer{
