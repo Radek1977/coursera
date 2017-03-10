@@ -78,16 +78,22 @@ body{
 	margin-top: 10px;
 }
 
-.btn .caret{
+.archi-slider{
+	margin-top: 7px;
 	margin-left: 10px;
+	background-color: #ffffff;
 }
 
-.archi-glyphicon-right{
-	float: right;
-	margin-right: 10px;
+.btn .caret{
+	margin-left: 10px;
 }
 
 .input-group{
 	margin-left: 10px;
 	margin-right: 10px;
+}
+
+.archi-numbers-button{
+	padding-left: 0px;
+	width: 100px;
 }
