@@ -46,6 +46,15 @@ body{
 	border: 0px;
 }
 
+.insidebox{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
 .selectContainer{
 	padding-top: 10px;
+}
+
+.sliderdiv{
+	margin-top: 20px;
 }
