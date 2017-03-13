@@ -8,8 +8,8 @@ a {
 
 body{
 	font-size: 16px;
-	color: #000000;
-	background-color: #FFFFFF;
+	color: #000000;		
+	background-color: #dddddd;
 }
 
 #arch-header-nav {
@@ -23,15 +23,11 @@ body{
 	padding-left: 5px;
 }
 
-#arch-search{
-	color:grey;
-}
-
 .archi-glyphicon-nav-right{
 	position: absolute;
 	right: 10px;
 	margin-top: 10px;
-	margin-right: 10px;
+	margin-right: 10px;	
 }
 
 .navbar-nav {
@@ -53,7 +49,7 @@ body{
 
 .dish{
 	background-color: #dddddd;
-	margin-top: 10px;
+	margin-top: 10px;	
 }
 
 .container{
@@ -69,7 +65,7 @@ body{
 
 .archi-insidebox{
 	margin-left: 10px;
-	margin-right: 10px;	
+	margin-right: 10px;		
 }
 
 .archi-slider-div{
@@ -88,8 +84,10 @@ body{
 }
 
 .input-group{
-	margin-left: 10px;
-	margin-right: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	background-color: #ffffff;
 }
 
 .archi-numbers-button{
@@ -97,11 +95,61 @@ body{
 	width: 100px;
 }
 
-
 .arch-number{	
 	margin-top: 10px;
 	border-style: solid;
 	border-width: 1px;
 	border-color: black;
 	height: 200px;
+}
+
+.arch-number-inside-box{		
+	height: 180px;
+}
+
+.arch-value{
+	padding-top: 20px;
+	font-size: 100px;
+	color: #000000;		
+}
+
+.arch-font-size-13{
+	font-size: 13px;
+} 
+
+.arch-name-text{
+}
+
+.arch-name{
+	font-weight: bold;
+}
+
+.arch-status{
+	color: red;
+}
+
+.arch-owner-text{
+
+}
+
+.arch-owner{
+	font-weight: bold;
+}
+
+.arch-time-left-number{
+	color: red;
+}
+
+.arch-time-left-text
+{
+
+}
+
+.arch-price-text
+{
+
+}
+
+.arch-price-number{
+	color: red;
 }
