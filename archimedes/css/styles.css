@@ -100,16 +100,16 @@ body{
 	border-style: solid;
 	border-width: 1px;
 	border-color: black;
-	height: 200px;
+	height: 180px;
 }
 
 .arch-number-inside-box{		
-	height: 180px;
+	height: 160px;
 	border-width: 0px;
 }
 
 #arch-number-thumb{
-	padding-top: 15px;
+	padding-top: 10px;
 	font-size: 100px;
 	color: #000000;		
 }
