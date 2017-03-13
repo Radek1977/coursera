@@ -105,51 +105,57 @@ body{
 
 .arch-number-inside-box{		
 	height: 180px;
+	border-width: 0px;
 }
 
-.arch-value{
-	padding-top: 20px;
+#arch-number-thumb{
+	padding-top: 15px;
 	font-size: 100px;
 	color: #000000;		
 }
 
-.arch-font-size-13{
-	font-size: 13px;
+.arch-font-size-15{
+	font-size: 16px;
+	margin-top: 10px;
 } 
 
-.arch-name-text{
+#arch-name-text{
+	float: left;	
 }
 
-.arch-name{
+#arch-name{
 	font-weight: bold;
 }
 
-.arch-status{
+#arch-status{
 	color: red;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
-.arch-owner-text{
-
+#arch-owner-text{
+	float: left;
 }
 
-.arch-owner{
+#arch-owner{
 	font-weight: bold;
 }
 
-.arch-time-left-number{
+#arch-time-left-number{
 	color: red;
+	float: left;
 }
 
-.arch-time-left-text
+#arch-time-left-text
 {
 
 }
 
-.arch-price-text
+#arch-price-text
 {
-
+	float: left;
 }
 
-.arch-price-number{
+#arch-price-number{
 	color: red;
 }
