@@ -95,7 +95,7 @@ body{
 	width: 100px;
 }
 
-.arch-number-xs{	
+.arch-number{	
 	margin-left: 0px;
 	margin-right: 0px;
 	margin-top: 10px;
@@ -105,34 +105,10 @@ body{
 	height: 180px;
 }
 
-.arch-number-sm-first{	
-	margin-left: 0px;
-	margin-right: 0px;
-	margin-top: 10px;
-	margin-bottom: 0px;	
-	padding-left: 0px;
-	padding-right: 5px;
-	height: 180px;
-}
-
-.arch-number-sm-middle{	
-	margin-left: 0px;
-	margin-right: 0px;
-	margin-top: 10px;
-	margin-bottom: 0px;	
-	padding-left: 5px;
-	padding-right: 5px;
-	height: 180px;
-}
-
-.arch-number-sm-last{	
-	margin-left: 0px;
-	margin-right: 0px;
-	margin-top: 10px;
-	margin-bottom: 0px;	
-	padding-left: 5px;
-	padding-right: 0px;
-	height: 180px;
+@media (min-width: 768px) {
+.arch-number{		
+	padding-right: 10px;	
+	}
 }
 
 .arch-number-inside{	
