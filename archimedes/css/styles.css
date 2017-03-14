@@ -96,11 +96,21 @@ body{
 }
 
 .arch-number{	
+	margin-left: -10px;
+	margin-right: 0px;
 	margin-top: 10px;
-	border-style: solid;
-	border-width: 1px;
-	border-color: black;
+	margin-bottom: 0px;	
+	padding-left: 10px;
+	padding-right: 10px;
 	height: 180px;
+}
+
+.arch-number-inside{	
+	border-radius: 5px;
+	background-color: #ffffff;
+	padding: 0px;	
+	height: 178px;
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 }
 
 .arch-number-inside-box{		
