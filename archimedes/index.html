@@ -44,7 +44,7 @@
 
 <div class="container-fluid col-xs-12">
   <div class="container-fluid dish">
-    <div class="container-fluid archi-insidebox">
+    <div class="container-fluid archi-insidebox" ng-controller="archSliderController">
       <div class="container-fluid archi-slider-div col-xs-12">
         <div class="dropdown col-xs-3 archi-numbers-button">
           <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Animals<span class="caret"></span>
@@ -86,7 +86,7 @@
         <div class="col-xs-12 arch-number-inside">
           <div class="col-xs-6 arch-number arch-number-inside-box text-center">
             <div class="arch-value-text">Value:</div>
-            <div class="arch-value">{{number}}</div>
+            <div class="arch-value">{{number+1}}</div>
             <div id="arch-number-2-thumb" class="arch-number-thumb">2</div>
           </div>
           <div class="col-xs-6 arch-number arch-number-inside-box arch-font-size-15">
@@ -107,7 +107,7 @@
     <div class="col-xs-12 arch-number-inside">
        <div class="col-xs-6 arch-number arch-number-inside-box text-center">
          <div class="arch-value-text">Value:</div>
-         <div class="arch-value">{{number}}</div>
+         <div class="arch-value">{{number+2}}</div>
          <div id="arch-number-3-thumb" class="arch-number-thumb">3</div>
        </div>
        <div class="col-xs-6 arch-number arch-number-inside-box arch-font-size-15">
@@ -128,7 +128,7 @@
       <div class="col-xs-12 arch-number-inside">
         <div class="col-xs-6 arch-number arch-number-inside-box text-center">
           <div class="arch-value-text">Value:</div>
-          <div class="arch-value">{{number}}</div>
+          <div class="arch-value">{{number+3}}</div>
           <div id="arch-number-4-thumb" class="arch-number-thumb">4</div>
         </div>
         <div class="col-xs-6 arch-number arch-number-inside-box arch-font-size-15">

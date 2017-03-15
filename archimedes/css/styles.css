@@ -146,7 +146,7 @@ body{
 }
 
 .arch-number-thumb{
-	padding-top: 10px;
+	padding-top: 0px;
 	font-size: 100px;
 	color: #000000;
 }
