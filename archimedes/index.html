@@ -1,9 +1,11 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" ng-app="archApp">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="js/angular.min.js"></script>
+    <script src="js/script.js"></script>
     <title>Archimedes</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
@@ -17,17 +19,17 @@
           <a href="index.html">
             ARCHI
           </a>
-        </div>      
+        </div>
         <div class="archi-glyphicon-nav-right">
           <a href="#">
             <span class="glyphicon glyphicon-home"></span>
-          </a>        
+          </a>
           <a href="#">
             <span class="glyphicon glyphicon-user"></span>
-          </a>            
+          </a>
         </div>
       </div>
-    </div>    
+    </div>
   </nav>
 </header>
 
@@ -42,26 +44,28 @@
 
 <div class="container-fluid col-xs-12">
   <div class="container-fluid dish">
-    <div class="container-fluid archi-insidebox">    
-      <div class="container-fluid archi-slider-div col-xs-12">        
+    <div class="container-fluid archi-insidebox">
+      <div class="container-fluid archi-slider-div col-xs-12">
         <div class="dropdown col-xs-3 archi-numbers-button">
           <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Animals<span class="caret"></span>
           </button>
             <ul class="dropdown-menu">
-            <li><a href="#">Horses</a></li>            
+            <li><a href="#">Horses</a></li>
             <li><a href="#">Dogs</a></li>
             <!--li class="divider"></li-->
             <li><a href="#">Cats</a></li>
           </ul>
-        </div> <!--dropdown -->        
+        </div> <!--dropdown -->
       </div>
       <div class="col-xs-12 archi-slider">
-          <input type="range" min="0" max="100000" value="25" step="1" />
+          <input type="range" min="1" max="100000" value="1" step="1" ng-model="number"/>
       </div>
 
       <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 arch-number arch-number-first-not-xs">
         <div class="col-xs-12 arch-number-inside">
           <div class="col-xs-6 arch-number arch-number-inside-box text-center">
+            <div class="arch-value-text">Value:</div>
+            <div class="arch-value">{{number}}</div>
             <div id="arch-number-1-thumb" class="arch-number-thumb">1</div>
           </div>
           <div class="col-xs-6 arch-number arch-number-inside-box arch-font-size-15">
@@ -77,10 +81,12 @@
           </div>
         </div>
       </div>
-  
+
       <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 arch-number hidden-xs arch-number-last-not-xs arch-number-middle-2-not-xs">
         <div class="col-xs-12 arch-number-inside">
           <div class="col-xs-6 arch-number arch-number-inside-box text-center">
+            <div class="arch-value-text">Value:</div>
+            <div class="arch-value">{{number}}</div>
             <div id="arch-number-2-thumb" class="arch-number-thumb">2</div>
           </div>
           <div class="col-xs-6 arch-number arch-number-inside-box arch-font-size-15">
@@ -96,10 +102,12 @@
           </div>
         </div>
       </div>
-    
+
    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 arch-number hidden-xs hidden-sm arch-number-last-not-xs arch-number-middle-3-not-xs">
     <div class="col-xs-12 arch-number-inside">
        <div class="col-xs-6 arch-number arch-number-inside-box text-center">
+         <div class="arch-value-text">Value:</div>
+         <div class="arch-value">{{number}}</div>
          <div id="arch-number-3-thumb" class="arch-number-thumb">3</div>
        </div>
        <div class="col-xs-6 arch-number arch-number-inside-box arch-font-size-15">
@@ -119,6 +127,8 @@
    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 arch-number hidden-xs hidden-sm hidden-md arch-number-last-not-xs">
       <div class="col-xs-12 arch-number-inside">
         <div class="col-xs-6 arch-number arch-number-inside-box text-center">
+          <div class="arch-value-text">Value:</div>
+          <div class="arch-value">{{number}}</div>
           <div id="arch-number-4-thumb" class="arch-number-thumb">4</div>
         </div>
         <div class="col-xs-6 arch-number arch-number-inside-box arch-font-size-15">
@@ -133,7 +143,7 @@
           <div class="arch-price-number">0.01$</div>
         </div>
       </div>
-    </div>  
+    </div>
     </div>
   </div>
 </div>

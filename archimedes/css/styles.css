@@ -8,14 +8,14 @@ a {
 
 body{
 	font-size: 16px;
-	color: #000000;		
+	color: #000000;
 	background-color: #dddddd;
 }
 
 #arch-header-nav {
 	background-color: #ffffff;
 	border-radius: 0;
-	border:0;	
+	border:0;
 }
 
 #arch-glyphicon-nav{
@@ -27,7 +27,7 @@ body{
 	position: absolute;
 	right: 10px;
 	margin-top: 10px;
-	margin-right: 10px;	
+	margin-right: 10px;
 }
 
 .navbar-nav {
@@ -49,7 +49,7 @@ body{
 
 .dish{
 	background-color: #dddddd;
-	margin-top: 10px;	
+	margin-top: 10px;
 }
 
 .container{
@@ -65,7 +65,7 @@ body{
 
 .archi-insidebox{
 	margin-left: 10px;
-	margin-right: 10px;		
+	margin-right: 10px;
 }
 
 .archi-slider-div{
@@ -95,29 +95,29 @@ body{
 	width: 100px;
 }
 
-.arch-number{	
+.arch-number{
 	margin-left: 0px;
 	margin-right: 0px;
 	margin-top: 10px;
-	margin-bottom: 0px;	
+	margin-bottom: 0px;
 	padding-left: 0px;
 	padding-right: 0px;
 	height: 180px;
 }
 
 @media (min-width:768px) {
-.arch-number-first-not-xs{		
-	padding-right: 5px;	
+.arch-number-first-not-xs{
+	padding-right: 5px;
 	}
 
-.arch-number-last-not-xs{		
-	padding-left: 5px;	
+.arch-number-last-not-xs{
+	padding-left: 5px;
 	}
 }
 
 @media (min-width: 992px) {
-.arch-number-middle-2-not-xs{		
-	padding-left: 5px;	
+.arch-number-middle-2-not-xs{
+	padding-left: 5px;
 	padding-right: 5px;
 	}
 
@@ -132,15 +132,15 @@ body{
 	}
 }
 
-.arch-number-inside{	
+.arch-number-inside{
 	border-radius: 3px;
 	background-color: #ffffff;
-	padding: 0px;	
+	padding: 0px;
 	height: 178px;
 	box-shadow: 1px 2px 2px rgba(0, 0, 0, .2);
 }
 
-.arch-number-inside-box{		
+.arch-number-inside-box{
 	height: 160px;
 	border-width: 0px;
 }
@@ -148,16 +148,25 @@ body{
 .arch-number-thumb{
 	padding-top: 10px;
 	font-size: 100px;
-	color: #000000;		
+	color: #000000;
 }
 
 .arch-font-size-15{
 	font-size: 16px;
 	margin-top: 10px;
-} 
+}
+
+.arch-value-text{
+	float: left;
+  margin-left: 10px;
+}
+
+.arch-value{
+	font-weight: bold;
+}
 
 .arch-name-text{
-	float: left;	
+	float: left;
 }
 
 .arch-name{
