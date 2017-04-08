@@ -11,22 +11,6 @@
     <link rel="stylesheet" href="css/styles.css">
   </head>
 
-<script>  
-$(document).ready(function() {    
-   $("#myCarousel").swiperight(function() {  
-      var  sliderValue = $("mySlider").Value;
-      if (sliderValue > 1)
-      {
-         $("mySlider").Value = sliderValue - 1;
-      }
-    });  
-   $("#myCarousel").swipeleft(function() {  
-      var  sliderValue = $("mySlider").Value;
-      $("mySlider").Value = sliderValue + 1;
-   });  
-});  
-</script>  
-
 <body>
 <header>
   <nav id="arch-header-nav" class="navbar navbar-default">
@@ -171,5 +155,26 @@ $(document).ready(function() {
   <script src="js/jquery-1.11.3.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+
+  <script>  
+$(document).ready(function() {    
+   $("#myCarousel").swiperight(
+   function() 
+   {  
+      var  sliderValue = $("#mySlider").Value;
+      if (sliderValue > 1)
+      {
+         $("#mySlider").Value = sliderValue - 1;
+      }
+    }
+    );  
+   $("#myCarousel").swipeleft(function() {  
+      var  sliderValue = $("#mySlider").Value;
+      $("#mySlider").Value = sliderValue + 1;
+   });  
+});  
+</script>  
+
 </body>
 </html>
