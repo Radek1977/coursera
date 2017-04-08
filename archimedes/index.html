@@ -151,29 +151,18 @@
   </div>
 </div>
 
-  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->  
   <script src="js/jquery-1.11.3.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
-  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>  
+  <script src="js/script.js"></script>  
 
   <script>  
-$(document).ready(function() {    
-   $("#myCarousel").swiperight(
-   function() 
-   {  
-      var  sliderValue = $("#mySlider").Value;
-      if (sliderValue > 1)
-      {
-         $("#mySlider").Value = sliderValue - 1;
-      }
-    }
-    );  
-   $("#myCarousel").swipeleft(function() {  
-      var  sliderValue = $("#mySlider").Value;
-      $("#mySlider").Value = sliderValue + 1;
-   });  
-});  
+
+$(document).on("pagecreate","#pageone",function(){
+  $("myCarousel").on("swipe",function(){
+    $(this).hide();
+  });                       
+});
 </script>  
 
 </body>
