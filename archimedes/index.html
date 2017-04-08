@@ -160,7 +160,8 @@
 
 $(document).on("pagecreate","#pageone",function(){
   $("myCarousel").on("swipe",function(){
-    $(this).hide();
+    var  sliderValue = $("#mySlider").Value;
+      $("#mySlider").Value = sliderValue + 1;
   });                       
 });
 </script>  
