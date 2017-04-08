@@ -1,0 +1,68 @@
+h1 {
+  font-size: 175%;
+}
+
+a {
+  font-size: 100%;
+  color:blue;
+}
+
+body{
+	font-size: 16px;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+
+.navbar-default .navbar-brand{
+	color: #77AAFF;
+}
+
+#header-nav {
+	background-color: #FFFFFF;
+	border-radius: 0;
+	border:1px;
+	border-color: black;
+}
+
+#nav-list {
+  margin-top: 0px;  
+}
+
+#nav-list a {
+  color: black;
+  background-color: #FFFFFF;
+  border: 1px solid black;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #AAAAAA;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.menu{
+	margin-top: -20px;
+}
+
+.navbar-brand{
+	font-weight: bold;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -40px;
+}
+
+.dish{
+	height: 65px;
+	background-color: #DDDDDD;
+	margin-top: 20px;
+}
+
+.container{
+	margin-left: 0px;
+}
